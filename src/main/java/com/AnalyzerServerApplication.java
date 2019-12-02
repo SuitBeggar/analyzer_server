@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @Version:
  **/
 @SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
-@ComponentScan(value = "jieba")
+@ComponentScan(value = "com")
 public class AnalyzerServerApplication {
     public static void main(String[] args) {
         SpringApplication.run(AnalyzerServerApplication.class, args);

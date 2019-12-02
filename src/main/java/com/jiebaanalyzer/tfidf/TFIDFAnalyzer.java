@@ -1,4 +1,4 @@
-package jieba.tfidf;
+package com.jiebaanalyzer.tfidf;
 
 import com.huaban.analysis.jieba.JiebaSegmenter;
 

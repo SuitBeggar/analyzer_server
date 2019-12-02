@@ -1,4 +1,4 @@
-package jieba.tfidf;
+package com.jiebaanalyzer.tfidf;
 
 /**
  * Created by fangyitao on 2019/10/28.

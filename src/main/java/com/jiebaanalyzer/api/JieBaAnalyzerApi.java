@@ -1,9 +1,8 @@
-package jieba.api;
+package com.jiebaanalyzer.api;
 
 import com.huaban.analysis.jieba.JiebaSegmenter;
-import jieba.tfidf.Keyword;
-import jieba.tfidf.TFIDFAnalyzer;
-import org.springframework.stereotype.Controller;
+import com.jiebaanalyzer.tfidf.Keyword;
+import com.jiebaanalyzer.tfidf.TFIDFAnalyzer;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -12,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
+/**jieba分词器
  * @description:
  * @Author:bella
  * @Date:2019/12/222:53
@@ -20,7 +19,7 @@ import java.util.List;
  **/
 @RestController
 @RequestMapping("/jieba")
-public class JieBaController {
+public class JieBaAnalyzerApi {
 
     /**
      * jieba中文分词
